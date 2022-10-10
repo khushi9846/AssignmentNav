@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="horizontal">
+
+
+    <item
+        android:title="home"
+        android:id="@+id/home"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:icon="@drawable/ic_baseline_home_24" />
+
+    <item
+        android:title="profile"
+        android:id="@+id/profile"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="17dp"
+        android:icon="@drawable/ic_baseline_person_24" />
+
+    <item
+        android:title="search"
+        android:id="@+id/search"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="17dp"
+        android:icon="@drawable/ic_baseline_search_24" />
+</menu>
